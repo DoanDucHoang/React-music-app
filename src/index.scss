@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@import './assets/styles/';
+
+body {
+  height: -80vh;
+  //background-image: url('https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/jack.jpg');
+  background-size: 1920px auto;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  #root {
+    display: flex;
+    height: -80vh;
+  }
+  .main-view {
+    padding-left: 282px;
+    height: -80vh;
+    width: 100%;
+  }
+}
